@@ -29,7 +29,6 @@ update actors set favorite_movie_id = 22 where (id = 1);
 
 # Crie uma cópia temporária da tabela de filmes.
 ````
-
 CREATE TEMPORARY TABLE temp_movies
 SELECT * FROM movies;
 ````
